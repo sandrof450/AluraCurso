@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        button{
+            background-color: #483;
+            border: 0;
+            border-radius: 4px;
+        }
+    </style>
+    <h1>Meu APP</h1>
+
+    <form onsubmit="handlerClick(event)">
+        <label for="name">Nome</label>
+        <input id="name" name="name"/>
+
+        <label for="birth_year">Data nascimentos</label>
+        <input id="birth_year" name="birth_year"/>
+
+        <button type="submit">clique aqui</button>
+    </form>
+
+    <p id="information"></p>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
